@@ -23,12 +23,19 @@
   },
   "loan": {
     "requested_amount": 36000000,
+    "benchmark_rate": 0.035,
+    "credit_spread": 0.0225,
     "interest_rate": 0.0575,
     "amortization_years": 25,
     "term_years": 5,
     "maximum_ltv": 0.65,
     "minimum_dscr": 1.3,
     "minimum_debt_yield": 0.08,
+    "refinance_interest_rate": 0.0675,
+    "refinance_amortization_years": 25,
+    "maximum_maturity_ltv": 0.65,
+    "minimum_refinance_dscr": 1.2,
+    "origination_fee_rate": 0.01,
     "loan_increment": 100000
   },
   "comparables": [
@@ -39,4 +46,3 @@
     {"name": "Comp E", "market": "Coquitlam", "area_sf": 172000, "sale_price": 49020000, "adjustment": 0.0}
   ]
 }
-
