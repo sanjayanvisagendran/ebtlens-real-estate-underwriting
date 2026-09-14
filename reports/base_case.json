@@ -1,5 +1,6 @@
 {
   "year_one_noi": 3288000.0,
+  "maturity_noi": 3723395.370142501,
   "income_value": 57182608.69565217,
   "comparable_value": 56922248.64864866,
   "underwritten_value": 56922248.64864866,
@@ -13,8 +14,14 @@
   "dscr": 1.3001146461257858,
   "debt_yield": 0.09814925373134328,
   "binding_constraint": "dscr",
-  "recommendation": "Proceed with conditions",
-  "balance_at_maturity": 30017888.534464486,
-  "schedule_months": 60
+  "maturity_balance": 30017888.534464486,
+  "exit_value": 62056589.502375014,
+  "maturity_ltv": 0.4837179866823917,
+  "refinance_interest_rate": 0.0675,
+  "refinance_debt_service": 2488764.618121211,
+  "refinance_dscr": 1.4960817680513807,
+  "lender_annual_irr": 0.061605489491249665,
+  "base_limits_pass": true,
+  "refinance_limits_pass": true,
+  "recommendation": "Proceed with conditions"
 }
-
