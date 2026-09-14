@@ -168,7 +168,7 @@ def lender_annual_irr(
     def npv(monthly_rate: float) -> float:
         return sum(cash_flow / (1 + monthly_rate) ** month for month, cash_flow in enumerate(cash_flows))
 
-    low, high = -0.999999, 1.0
+    low, high = -0.99, 1.0
     while npv(high) > 0 and high < 128:
         high *= 2
     if npv(low) * npv(high) > 0:
