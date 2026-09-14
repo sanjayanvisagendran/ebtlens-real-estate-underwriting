@@ -1,0 +1,20 @@
+{
+  "year_one_noi": 3288000.0,
+  "income_value": 57182608.69565217,
+  "comparable_value": 56922248.64864866,
+  "underwritten_value": 56922248.64864866,
+  "requested_amount": 36000000,
+  "ltv_capacity": 36999461.62162163,
+  "dscr_capacity": 33502954.342472166,
+  "debt_yield_capacity": 41100000.0,
+  "recommended_loan": 33500000,
+  "ltv": 0.5885220769611198,
+  "annual_debt_service": 2529007.737739066,
+  "dscr": 1.3001146461257858,
+  "debt_yield": 0.09814925373134328,
+  "binding_constraint": "dscr",
+  "recommendation": "Proceed with conditions",
+  "balance_at_maturity": 30017888.534464486,
+  "schedule_months": 60
+}
+
